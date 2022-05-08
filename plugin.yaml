@@ -1,0 +1,8 @@
+isolation:
+  enabled: true
+  podSecurityStandard: restricted
+
+plugin:
+  runasuser:
+    image: docker.io/k8s4u/vcluster-runasuser-plugin:0.1.0
+    imagePullPolicy: IfNotPresent
